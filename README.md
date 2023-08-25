@@ -1,6 +1,6 @@
 # CAN Bus GUI 
 
-Complete GUI for the CAN Bus Project. 
+Complete GUI for the CAN Bus Project. You can run the frontend with this command: "npm start". 
 
 Followed this presentation for design: [Presentation link](https://docs.google.com/presentation/d/17ygRXtBKnn2aTyCnaIcUy-i96TaNG3Dn/edit?usp=sharing&ouid=117694041317561918445&rtpof=true&sd=true)
 
