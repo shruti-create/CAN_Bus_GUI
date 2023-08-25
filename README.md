@@ -5,6 +5,7 @@ Complete GUI for the CAN Bus Project.
 Followed this presentation for design: [Presentation link](https://docs.google.com/presentation/d/17ygRXtBKnn2aTyCnaIcUy-i96TaNG3Dn/edit?usp=sharing&ouid=117694041317561918445&rtpof=true&sd=true)
 
 Starting Screen:
+
 <img width="1404" alt="Screenshot 2023-08-25 at 3 26 51 PM" src="https://github.com/shruti-create/CAN_Bus_GUI/assets/68794846/8dbe66c3-aea4-4bfb-a175-14dda44554c5">
 
 Features:
