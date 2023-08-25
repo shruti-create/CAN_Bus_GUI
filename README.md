@@ -16,3 +16,9 @@ Features:
 
 ## How to Connect this React App to Python Backend
 
+1) Choose a Web Framework and Install - Flask is popular for Python Web Backends.
+2) Define API endpoints/routes in your backend to handle requests from the front end.
+3) Use the built in "fetch" API or a librarly like "axios" in your react app to make HTTP requests from the React components to the backend endpoints.
+4) To allow Frontend/Backend Communication, handle Cross-Origin Resource Sharing (CORS) and configure it to allow requests from the React frontend domain. You can use libraries like "flask-cors" for this.
+
+This is a very high level overview, but hopefull it serves as a good starting point!
