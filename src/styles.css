@@ -1,0 +1,333 @@
+    /* styles.css */
+
+    .container {
+        background-color: black;
+        min-width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1px;
+    }
+
+    .box {
+        width: 90vw;
+        height: 53vw;
+        background-color: black;
+        border: 2px solid rgb(13, 199, 13);
+        border-radius: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: white;
+        padding: 1px;
+        align-items: left;
+        font-size: calc(0.5vw + 0.5vh);
+    }
+
+    .title-box {
+        width: 100%;
+        height: 11%;
+        background-color: black;
+        border: 2px solid rgb(13, 199, 13);
+        border-radius: 0;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        box-sizing: border-box;     
+        padding-left: 10px;
+        font-size: calc(0.5vw + 0.5vh);
+    }
+    .title-box-text{
+        padding-left: 15%;
+        font-size: 2vw;
+        font-family: "Arial";
+    }
+    .title-box-exit{
+        padding-left: 1%;
+    }
+    .title-box-small-text{
+        font-size: 1vw;
+        padding-left: 8%;
+        font-family: "Arial";
+        line-height: 0.3;
+    }
+    .history-box {
+        width: 100%;
+        height: 20%;
+        background-color: black;
+        border: 2px solid rgb(13, 199, 13);
+        border-radius: 0;
+        color: white;
+        overflow: auto;
+        text-align: left;
+        box-sizing: border-box; 
+    }
+    .history-box-content {
+        padding: 10px; 
+        font-family: "Arial" ;
+        font-weight: 100;
+        line-height: 1;
+    }
+    .connect-button{
+        width: 13%;
+        height: 90%;
+        background-color: black;
+        border: 2px solid rgb(13, 199, 13);
+        border-radius: 0;
+        color: white;
+        overflow: auto;
+        text-align: center;
+        box-sizing: border-box; 
+        font-size: calc(1.3vw);
+        margin: 0.5%;
+    }
+    .connect-represent{
+        width: 5.7%;
+        height: 90%;
+        background-color: black;
+        border: 2px solid rgb(13, 199, 13);
+        border-radius: 0;
+        color: white;
+        overflow: auto;
+        align-items: center;
+        box-sizing: border-box; 
+        padding: 5px;
+        margin: 0.5%;
+    }
+    .circle {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        background-color: red;
+        border-radius: 50%;
+    }
+    .green-circle {
+        background-color: rgb(13, 199, 13);
+    }
+    .exit{
+        width: 7vw;
+        height: 5vw;
+        background-color: black;
+        border: 2px solid rgb(13, 199, 13);
+        border-radius: 0;
+        color: white;
+        overflow: auto;
+        align-items: center;
+        box-sizing: border-box; 
+        padding: 5px;
+        margin: 0.5%;
+        font-size: calc(2vw);
+    }
+    .vertical-line {
+        width: 2px;
+        background-color: rgb(13, 199, 13);
+        height: 36.5vw;
+        position: absolute;
+        margin-top: 6vw;
+    }
+    
+    .vertical-line-left {
+        left: 14vw;
+    }
+    
+    .vertical-line-right {
+        right: 13vw;
+    }
+    .left-box-container {
+        position: relative;
+    }
+     
+    .left-box-four {
+        position: absolute;
+        top: 26.5vw;
+        margin: 0.5vw;
+        font-size: calc(0.85vw);
+        text-align: center;
+        overflow: hidden;
+    }
+    
+    .left-box-three {
+        position: absolute;
+        top: 18.3vw;
+        margin: 0.5vw;
+        font-size: calc(0.85vw);
+        text-align: center;
+        overflow: hidden;
+    }
+    
+    .left-box-two {
+        position: absolute;
+        top: 10vw;
+        margin: 0.5vw;
+        font-size: calc(0.85vw);
+        text-align: center;
+        overflow: hidden;
+    }
+    
+    .left-box-one{
+        position: absolute;
+        top: 2vw;
+        margin: 0.5vw;
+        font-size: calc(0.85vw);
+        text-align: center;
+        overflow: hidden;
+    }
+   
+    .button-box {
+        width: 7vw;
+        height: 5vw;
+        background-color: black;
+        border: 2px solid rgb(13, 199, 13);
+        color: white;
+        overflow: auto;
+        align-items: center;
+        box-sizing: border-box; 
+        padding: 5px;
+        margin: 0.5vw;
+        font-size: calc(0.85vw);
+        text-align: center;
+        overflow: hidden;
+    }
+    .right-box-container {
+        position: relative;
+    }
+    .right-box-one{
+        position: absolute;
+        bottom: 26.5vw;
+        left: 91%;
+        margin: 0.5vw;
+        font-size: calc(0.8vw);
+        text-align: center;
+        overflow: hidden;
+    }
+    
+    .right-box-two{
+        position: absolute;
+        bottom: 18.3vw;
+        left: 91%;
+        margin: 0.5vw;
+        font-size: calc(0.85vw);
+        text-align: center;
+        overflow: hidden;
+    }
+    
+    .right-box-three {
+        position: absolute;
+        bottom: 10vw;
+        left: 91%;
+        margin: 0.5vw;
+        font-size: calc(0.85vw);
+        text-align: center;
+        overflow: hidden;
+    }
+    
+    .right-box-four {
+        position: absolute;
+        bottom: 2vw;
+        left: 91%;
+        margin: 0.5vw;
+        font-size: calc(0.85vw);
+        text-align: center;
+        overflow: hidden;
+    }
+    .small-image {
+        display: block;
+        max-width: 3vw;
+        margin-left: 1.5vw;
+        margin-bottom: 0.3vw;
+    }
+
+    
+    .center-inside{
+        width: 14vw; 
+        height: 9.5vw; 
+        border: 2px solid rgb(13, 199, 13);
+        float: left;
+        margin :0.5vw;
+        position: relative;
+        text-align: center;
+        font-size: calc(1vw);
+        background-color: black;
+        color:white;
+    }
+      
+    .inner-box {
+        width: 72vw;
+        height: 33vw;
+        margin-left: 14vw;
+        position: relative;
+    }
+    .dials-box {
+        width: 72vw;
+        height: 33vw;
+        margin-left: 10vw;
+        position: relative;
+    }
+
+    .medium-image{
+        width: 13vw; 
+        margin-left: 2%;
+        margin-top: 5%;
+    }
+
+    .dials-image{
+        width: 10vw; 
+        margin-left: 2%;
+        display: block; 
+        margin-bottom:0.5vw;
+    }
+    .dials-button{
+        width: 10.5vw; 
+        height: 15vw; 
+        float: left;
+        margin :0.5vw;
+        position: relative;
+        font-size: calc(1.4vw);
+        background-color: black;
+        color:white;
+        align-items: top; 
+        border:none;
+        margin-bottom: 1vw;
+        text-align: center;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    .green-box {
+        background-color: rgb(120, 196, 120);;
+    }
+    .center-inside.dials.active {
+        background-color: transparent;
+      }
+    .center-inside.active::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 255, 0, 0.5); 
+        pointer-events: none; 
+      }
+      .dials-button.dials.active {
+        background-color: transparent;
+      }
+    .dials-button.active::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 255, 0, 0.5); 
+        pointer-events: none; 
+      }
+      
+      
+      
+      
+      
+      
+   
